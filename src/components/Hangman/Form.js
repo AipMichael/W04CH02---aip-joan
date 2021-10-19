@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 const Form = ({ text, actionOnClick, maxNumber, func }) => {
   return (
     <>
