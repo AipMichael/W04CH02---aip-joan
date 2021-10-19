@@ -17,13 +17,20 @@ function App() {
   const handleInputChange = (e) => {
     letter1 = e.target.value;
   };
+  let b;
+
+  /* const a = () => {
+    console.log(letter1)
+    b = wordIncludes ? letter1.value : letter1;
+    return b;
+  }; */
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>The Hangman</h1>
+        <h1>The Hang-mario Game</h1>
         <Hangman />
-        <LetterContainer letter="e"></LetterContainer>
+        <LetterContainer letter={b} />
         <Form
           text="ok"
           actionOnClick={(leter) => wordIncludes(letter1)}
