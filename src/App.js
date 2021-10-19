@@ -6,7 +6,7 @@ import LetterContainer from "./components/Hangman/letterContainer/LetterContaine
 import Form from "./components/Hangman/Form";
 
 function App() {
-  const [myWords, setMyWords] = useState(["perro"]);
+  const [myWords] = useState(["perro"]);
   // map para comprobar si el input[ pasado está en la palabra.
 
   const wordIncludes = (input) => {
